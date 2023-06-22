@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31437EA73310E2201C5E7CBA /* Pods_DrawingMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D13ADE0518D32E7EBF96C1 /* Pods_DrawingMemo.framework */; };
+		FD12E11C2A3416DC003FE221 /* ColorSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12E11B2A3416DC003FE221 /* ColorSelectView.swift */; };
+		FD671B642A0741D70009F412 /* DrawingMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B632A0741D70009F412 /* DrawingMemoApp.swift */; };
+		FD671B662A0741D70009F412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B652A0741D70009F412 /* ContentView.swift */; };
+		FD671B682A0741D80009F412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD671B672A0741D80009F412 /* Assets.xcassets */; };
+		FD671B6B2A0741D80009F412 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD671B6A2A0741D80009F412 /* Preview Assets.xcassets */; };
+		FD671B792A076B280009F412 /* DrawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B782A076B280009F412 /* DrawData.swift */; };
+		FD671B7B2A076D290009F412 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B7A2A076D290009F412 /* ContentViewModel.swift */; };
+		FD671B7D2A0773130009F412 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B7C2A0773130009F412 /* CanvasView.swift */; };
+		FD671B852A09F8B20009F412 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD671B842A09F8B20009F412 /* UIViewExtension.swift */; };
+		FD705B202A31985400908A3D /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD705B1F2A31985400908A3D /* viewModel.swift */; };
+		FD705B222A3198DA00908A3D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD705B212A3198DA00908A3D /* Extension.swift */; };
+		FD83E2822A29C51A0079219B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD83E2812A29C51A0079219B /* ActivityView.swift */; };
+		FD83E2852A2C6CA60079219B /* PenKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD83E2842A2C6CA60079219B /* PenKitView.swift */; };
+		FDD3737C2A2F568F0098DB88 /* PenSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3737B2A2F568F0098DB88 /* PenSelectView.swift */; };
+		FDFC90282A2096EE00CFDC4C /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC90272A2096EE00CFDC4C /* ViewExtension.swift */; };
+		FDFC902A2A20974400CFDC4C /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC90292A20974400CFDC4C /* AlertModifier.swift */; };
+		FDFC902F2A21D65D00CFDC4C /* TopbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC902E2A21D65C00CFDC4C /* TopbarView.swift */; };
+		FDFC90312A21DB1D00CFDC4C /* BottombarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC90302A21DB1D00CFDC4C /* BottombarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65970C159FD09027E673EF10 /* Pods-DrawingMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingMemo.debug.xcconfig"; path = "Target Support Files/Pods-DrawingMemo/Pods-DrawingMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D13ADE0518D32E7EBF96C1 /* Pods_DrawingMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawingMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8651A4E1AB5C905A12C9621 /* Pods-DrawingMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingMemo.release.xcconfig"; path = "Target Support Files/Pods-DrawingMemo/Pods-DrawingMemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD12E11B2A3416DC003FE221 /* ColorSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSelectView.swift; sourceTree = "<group>"; };
+		FD671B602A0741D70009F412 /* DrawingMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD671B632A0741D70009F412 /* DrawingMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingMemoApp.swift; sourceTree = "<group>"; };
+		FD671B652A0741D70009F412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD671B672A0741D80009F412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD671B6A2A0741D80009F412 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD671B782A076B280009F412 /* DrawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawData.swift; sourceTree = "<group>"; };
+		FD671B7A2A076D290009F412 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		FD671B7C2A0773130009F412 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		FD671B842A09F8B20009F412 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FD705B1F2A31985400908A3D /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		FD705B212A3198DA00908A3D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FD83E2812A29C51A0079219B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		FD83E2832A29CC350079219B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD83E2842A2C6CA60079219B /* PenKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenKitView.swift; sourceTree = "<group>"; };
+		FDD3737B2A2F568F0098DB88 /* PenSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenSelectView.swift; sourceTree = "<group>"; };
+		FDFC90272A2096EE00CFDC4C /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		FDFC90292A20974400CFDC4C /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
+		FDFC902E2A21D65C00CFDC4C /* TopbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopbarView.swift; sourceTree = "<group>"; };
+		FDFC90302A21DB1D00CFDC4C /* BottombarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottombarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD671B5D2A0741D70009F412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31437EA73310E2201C5E7CBA /* Pods_DrawingMemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCF8A0D7D882D2883808DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65970C159FD09027E673EF10 /* Pods-DrawingMemo.debug.xcconfig */,
+				A8651A4E1AB5C905A12C9621 /* Pods-DrawingMemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A35154CF6CED97BE08A47FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D13ADE0518D32E7EBF96C1 /* Pods_DrawingMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD671B572A0741D70009F412 = {
+			isa = PBXGroup;
+			children = (
+				FD671B622A0741D70009F412 /* DrawingMemo */,
+				FD671B612A0741D70009F412 /* Products */,
+				7DCF8A0D7D882D2883808DC1 /* Pods */,
+				A35154CF6CED97BE08A47FA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD671B612A0741D70009F412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B602A0741D70009F412 /* DrawingMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD671B622A0741D70009F412 /* DrawingMemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD83E2832A29CC350079219B /* Info.plist */,
+				FD671B712A074D5D0009F412 /* App */,
+				FDFC90232A20858600CFDC4C /* Util */,
+				FD671B722A074D660009F412 /* Views */,
+				FD671B732A074DA40009F412 /* Model */,
+				FD705B1E2A31980E00908A3D /* Unused */,
+				FD671B672A0741D80009F412 /* Assets.xcassets */,
+				FD671B692A0741D80009F412 /* Preview Content */,
+			);
+			path = DrawingMemo;
+			sourceTree = "<group>";
+		};
+		FD671B692A0741D80009F412 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B6A2A0741D80009F412 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD671B712A074D5D0009F412 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B632A0741D70009F412 /* DrawingMemoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD671B722A074D660009F412 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B652A0741D70009F412 /* ContentView.swift */,
+				FD671B7A2A076D290009F412 /* ContentViewModel.swift */,
+				FD671B742A074DB50009F412 /* ChildViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD671B732A074DA40009F412 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B782A076B280009F412 /* DrawData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD671B742A074DB50009F412 /* ChildViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC902E2A21D65C00CFDC4C /* TopbarView.swift */,
+				FDFC90302A21DB1D00CFDC4C /* BottombarView.swift */,
+				FD83E2812A29C51A0079219B /* ActivityView.swift */,
+				FD83E2842A2C6CA60079219B /* PenKitView.swift */,
+				FDD373782A2F4DDA0098DB88 /* BottombarSelect */,
+			);
+			path = ChildViews;
+			sourceTree = "<group>";
+		};
+		FD671B7E2A0894460009F412 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B842A09F8B20009F412 /* UIViewExtension.swift */,
+				FDFC90272A2096EE00CFDC4C /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FD705B1E2A31980E00908A3D /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				FD671B7C2A0773130009F412 /* CanvasView.swift */,
+				FD705B1F2A31985400908A3D /* viewModel.swift */,
+				FD705B212A3198DA00908A3D /* Extension.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		FDD373782A2F4DDA0098DB88 /* BottombarSelect */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3737B2A2F568F0098DB88 /* PenSelectView.swift */,
+				FD12E11B2A3416DC003FE221 /* ColorSelectView.swift */,
+			);
+			path = BottombarSelect;
+			sourceTree = "<group>";
+		};
+		FDFC90232A20858600CFDC4C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC90242A2085A300CFDC4C /* Modifier */,
+				FD671B7E2A0894460009F412 /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FDFC90242A2085A300CFDC4C /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC90292A20974400CFDC4C /* AlertModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD671B5F2A0741D70009F412 /* DrawingMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD671B6E2A0741D80009F412 /* Build configuration list for PBXNativeTarget "DrawingMemo" */;
+			buildPhases = (
+				D4C2CA4973CA8E05E03FFD72 /* [CP] Check Pods Manifest.lock */,
+				FD671B5C2A0741D70009F412 /* Sources */,
+				FD671B5D2A0741D70009F412 /* Frameworks */,
+				FD671B5E2A0741D70009F412 /* Resources */,
+				5D6BCE890EF550C27250EC01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingMemo;
+			productName = DrawingMemo;
+			productReference = FD671B602A0741D70009F412 /* DrawingMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD671B582A0741D70009F412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FD671B5F2A0741D70009F412 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FD671B5B2A0741D70009F412 /* Build configuration list for PBXProject "DrawingMemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD671B572A0741D70009F412;
+			productRefGroup = FD671B612A0741D70009F412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD671B5F2A0741D70009F412 /* DrawingMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD671B5E2A0741D70009F412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD671B6B2A0741D80009F412 /* Preview Assets.xcassets in Resources */,
+				FD671B682A0741D80009F412 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D6BCE890EF550C27250EC01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingMemo/Pods-DrawingMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingMemo/Pods-DrawingMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawingMemo/Pods-DrawingMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C2CA4973CA8E05E03FFD72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawingMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD671B5C2A0741D70009F412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3737C2A2F568F0098DB88 /* PenSelectView.swift in Sources */,
+				FDFC90282A2096EE00CFDC4C /* ViewExtension.swift in Sources */,
+				FD671B7B2A076D290009F412 /* ContentViewModel.swift in Sources */,
+				FDFC902F2A21D65D00CFDC4C /* TopbarView.swift in Sources */,
+				FD671B662A0741D70009F412 /* ContentView.swift in Sources */,
+				FD83E2822A29C51A0079219B /* ActivityView.swift in Sources */,
+				FD671B7D2A0773130009F412 /* CanvasView.swift in Sources */,
+				FD705B222A3198DA00908A3D /* Extension.swift in Sources */,
+				FD671B792A076B280009F412 /* DrawData.swift in Sources */,
+				FD671B852A09F8B20009F412 /* UIViewExtension.swift in Sources */,
+				FD12E11C2A3416DC003FE221 /* ColorSelectView.swift in Sources */,
+				FD671B642A0741D70009F412 /* DrawingMemoApp.swift in Sources */,
+				FD83E2852A2C6CA60079219B /* PenKitView.swift in Sources */,
+				FDFC90312A21DB1D00CFDC4C /* BottombarView.swift in Sources */,
+				FD705B202A31985400908A3D /* viewModel.swift in Sources */,
+				FDFC902A2A20974400CFDC4C /* AlertModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD671B6C2A0741D80009F412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD671B6D2A0741D80009F412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD671B6F2A0741D80009F412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65970C159FD09027E673EF10 /* Pods-DrawingMemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawingMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawingMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "手書きメモ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "描いた絵を保存します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.DrawingMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD671B702A0741D80009F412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8651A4E1AB5C905A12C9621 /* Pods-DrawingMemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawingMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawingMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "手書きメモ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "描いた絵を保存します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.DrawingMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD671B5B2A0741D70009F412 /* Build configuration list for PBXProject "DrawingMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD671B6C2A0741D80009F412 /* Debug */,
+				FD671B6D2A0741D80009F412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD671B6E2A0741D80009F412 /* Build configuration list for PBXNativeTarget "DrawingMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD671B6F2A0741D80009F412 /* Debug */,
+				FD671B702A0741D80009F412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD671B582A0741D70009F412 /* Project object */;
+}
